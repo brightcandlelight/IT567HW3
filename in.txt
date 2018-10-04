@@ -1,0 +1,4 @@
+[{"host":"192.168.207.41", "ports": "1,53-60", "udp": true, "icmp": true},
+{"host":"192.168.207.42", "ports": "23-25", "udp": false, "icmp": false},
+{"host":"192.168.207.41", "ports": "23-25", "udp": false, "icmp": false}
+]

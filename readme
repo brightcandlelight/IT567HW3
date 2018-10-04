@@ -1,0 +1,24 @@
+To run, do 
+python hw3.py --host <host> --ports <ports> (--udp --icmp --html)
+or
+python hw3.py --filename <input file with valid json> (--udp --icmp --html)
+
+(tested on python 2.7)
+
+The input file should look something like this:
+[{"host":"192.168.207.41", "ports": "53-60", "udp": true, "icmp": true},
+  {"host":"192.168.207.42", "ports": "23-25", "udp": false, "icmp": false},
+  {"host":"192.168.207.41", "ports": "23-25", "udp": false, "icmp": false}
+]
+
+To print to html, add the html flag and redirect your output to an html file
+python hw3.py -host <host> --ports <ports> --html >out.html
+Format will be of html type.
+
+Basic functionality (40)
+Port ranges supported (10). Eg "10,11,15-19"
+TCP, UDP, and ICMP supported (15)
+List of IPs supported in the json file as shown above (5)
+HTML format output option (10)
+
+Kaleb White
