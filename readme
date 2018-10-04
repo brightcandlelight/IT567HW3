@@ -15,6 +15,10 @@ To print to html, add the html flag and redirect your output to an html file
 python hw3.py -host <host> --ports <ports> --html >out.html
 Format will be of html type.
 
+To scan the ports as udp instead of tcp, add the --udp flag
+
+To scan for icmp, add the --icmp flag
+
 Basic functionality (40)
 Port ranges supported (10). Eg "10,11,15-19"
 TCP, UDP, and ICMP supported (15)
